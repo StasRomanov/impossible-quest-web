@@ -1,0 +1,86 @@
+html {
+  background-color: orange;
+}
+
+body {
+  font-family: 'AmaticNormal', cursive;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.allContent {
+  /*background-image: url(img/depositphotos_26993083-stock-illustration-seamless-texture-with-triangles-mosaic.jpg);*/
+  background-color: orange;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  padding-top: 200px;
+}
+
+.mainHeader {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 60px;
+}
+
+.start {
+  font-size: 37px;
+  color: white;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  border: 2px solid white;
+  padding-top: 20px;
+  min-width: 237px;
+  padding-bottom: 25px;
+  border-radius: 10px;
+}
+
+.start:hover {
+  color: rgb(239, 218, 218);
+  border: 2px solid rgb(239, 218, 218);
+}
+
+.start:active {
+  color: rgb(129, 224, 58);
+  border: 2px solid rgb(129, 224, 58);
+}
+
+.startContainer {
+  margin-top: 265px;
+  display: flex;
+  justify-content: center;
+}
+.mainTextArea {
+  background-color: rgba(210, 118, 31, 0.87);
+  border: 2px solid #000000;
+  border-radius: 5px;
+  min-height: 500px;
+  min-width: 500px;
+  width: 100%;
+  max-width: 1000px;
+  display: block;
+  margin: 0 10% 50px;
+  padding: 10px 20px 15px 20px;
+}
+
+.mainTextAreaContent {
+  margin: 0;
+  font-size: 40px;
+
+}
+
+.game .allContent {
+  padding-top: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 1px solid black;
+  min-width: 70%;
+  margin: 120px auto auto;
+  width: 70%;
+  align-items: center;
+}
