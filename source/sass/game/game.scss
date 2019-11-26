@@ -1,0 +1,51 @@
+.game {
+  position: relative;
+}
+
+.mainTextArea {
+  background-color: rgba(237, 121, 39, 0.87);
+  border: 1.5px dashed $blackItem;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 20%;
+  padding: 10px;
+}
+
+.mainTextAreaContent {
+  margin: 0;
+  font-size: 20px;
+}
+
+.game .allContent {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  //border: 1px solid black;
+  margin: 10% auto auto;
+  align-items: center;
+  padding: 0 3%;
+}
+
+.answerContainer {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.answerList {
+  @include listBase();
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+.answerItem {
+  background-color: rgb(237, 74, 47);
+  min-height: 50px;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
