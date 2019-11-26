@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.mainTextArea {
+.main-text-area {
   background-color: rgba(237, 121, 39, 0.87);
   border: 1.5px dashed $blackItem;
   border-radius: 5px;
@@ -11,12 +11,12 @@
   padding: 10px;
 }
 
-.mainTextAreaContent {
+.main-text-area-content {
   margin: 0;
   font-size: 20px;
 }
 
-.game .allContent {
+.game .all-content {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -26,12 +26,12 @@
   padding: 0 3%;
 }
 
-.answerContainer {
+.answer-container {
   width: 100%;
   margin-bottom: 20px;
 }
 
-.answerList {
+.answer-list {
   @include listBase();
   display: flex;
   flex-direction: row;
@@ -40,7 +40,7 @@
   padding: 0 5%;
 }
 
-.answerItem {
+.answer-tem {
   background-color: rgb(237, 74, 47);
   min-height: 50px;
   width: 100%;
@@ -48,4 +48,21 @@
   border-radius: 5px;
   margin: 5px;
   padding: 5px;
+}
+
+.home-link,
+.settings {
+  position: absolute;
+}
+
+.home-link img{
+  width: 30px;
+}
+
+.settings {
+  right: 0;
+}
+
+.settings img{
+  width: 35px
 }
